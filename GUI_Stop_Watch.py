@@ -12,7 +12,7 @@ root.geometry(f'200x120+{screen_width}+{screen_height}')
 counter, counterm , counterh = 0, 0,0
 Stop = False
 
-#Llabel to display the counter
+#Label to display the counter
 title = tk.Label(root, text="Stop Watch", font=("Algerian", 24),bg="black",fg="white")
 title.pack()
 label = tk.Label(root, text="0m , 0s", font=("Ariel", 16),bg="black",fg="white")
